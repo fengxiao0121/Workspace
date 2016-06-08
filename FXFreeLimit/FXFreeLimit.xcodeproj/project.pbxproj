@@ -13,6 +13,7 @@
 		BC08E7F31D07F128003FFB3F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08E7F11D07F128003FFB3F /* Main.storyboard */; };
 		BC08E7F51D07F128003FFB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08E7F41D07F128003FFB3F /* Assets.xcassets */; };
 		BC08E7F81D07F128003FFB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08E7F61D07F128003FFB3F /* LaunchScreen.storyboard */; };
+		BC08E8011D07F5EA003FFB3F /* FXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC08E8001D07F5EA003FFB3F /* FXViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		BC08E7F41D07F128003FFB3F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		BC08E7F71D07F128003FFB3F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BC08E7F91D07F128003FFB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC08E7FF1D07F5EA003FFB3F /* FXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXViewController.h; path = "../视图控制器/FXViewController.h"; sourceTree = "<group>"; };
+		BC08E8001D07F5EA003FFB3F /* FXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXViewController.m; path = "../视图控制器/FXViewController.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		BC08E7E71D07F128003FFB3F /* FXFreeLimit */ = {
 			isa = PBXGroup;
 			children = (
+				BC08E7FF1D07F5EA003FFB3F /* FXViewController.h */,
+				BC08E8001D07F5EA003FFB3F /* FXViewController.m */,
 				BC08E7EB1D07F128003FFB3F /* AppDelegate.h */,
 				BC08E7EC1D07F128003FFB3F /* AppDelegate.m */,
 				BC08E7EE1D07F128003FFB3F /* ViewController.h */,
@@ -151,6 +156,7 @@
 			files = (
 				BC08E7F01D07F128003FFB3F /* ViewController.m in Sources */,
 				BC08E7ED1D07F128003FFB3F /* AppDelegate.m in Sources */,
+				BC08E8011D07F5EA003FFB3F /* FXViewController.m in Sources */,
 				BC08E7EA1D07F128003FFB3F /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
