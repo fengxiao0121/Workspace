@@ -14,6 +14,7 @@
 		BC08E7F51D07F128003FFB3F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC08E7F41D07F128003FFB3F /* Assets.xcassets */; };
 		BC08E7F81D07F128003FFB3F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC08E7F61D07F128003FFB3F /* LaunchScreen.storyboard */; };
 		BC08E8011D07F5EA003FFB3F /* FXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC08E8001D07F5EA003FFB3F /* FXViewController.m */; };
+		BC08E8031D07F78D003FFB3F /* 初音.jpg in Resources */ = {isa = PBXBuildFile; fileRef = BC08E8021D07F78D003FFB3F /* 初音.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,7 @@
 		BC08E7F91D07F128003FFB3F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BC08E7FF1D07F5EA003FFB3F /* FXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = FXViewController.h; path = "../视图控制器/FXViewController.h"; sourceTree = "<group>"; };
 		BC08E8001D07F5EA003FFB3F /* FXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = FXViewController.m; path = "../视图控制器/FXViewController.m"; sourceTree = "<group>"; };
+		BC08E8021D07F78D003FFB3F /* 初音.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "初音.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 		BC08E7E71D07F128003FFB3F /* FXFreeLimit */ = {
 			isa = PBXGroup;
 			children = (
+				BC08E8021D07F78D003FFB3F /* 初音.jpg */,
 				BC08E7FF1D07F5EA003FFB3F /* FXViewController.h */,
 				BC08E8001D07F5EA003FFB3F /* FXViewController.m */,
 				BC08E7EB1D07F128003FFB3F /* AppDelegate.h */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				BC08E7F81D07F128003FFB3F /* LaunchScreen.storyboard in Resources */,
+				BC08E8031D07F78D003FFB3F /* 初音.jpg in Resources */,
 				BC08E7F51D07F128003FFB3F /* Assets.xcassets in Resources */,
 				BC08E7F31D07F128003FFB3F /* Main.storyboard in Resources */,
 			);
